@@ -1,11 +1,10 @@
-# Принтех · демо ClientSpace
+# Принтех · концепт ClientSpace
 
-[Демо](https://userdetect.github.io/clientspace-print-printeh/) также можно открыть локально через любой статический HTTP-сервер.
+- [Демо сайта](https://userdetect.github.io/clientspace-print-printeh/)
+- [Демо CRM](https://userdetect.github.io/clientspace-print-printeh/crm.html)
+- [Действующий сайт](https://printehnn.ru/)
 
-Форма формирует черновик в браузере. Для приёма заказов понадобится подключить канал доставки заявок.
-
-[Действующий сайт](https://printehnn.ru/)
-
-## Источники изображений
+Форма и CRM используют IndexedDB. Созданные в демо заявки и файлы хранятся в браузере. Сравнивать форму и CRM нужно в одном браузерном профиле.
 
 - [Образец гибкой упаковки](https://printehnn.ru/)
+- [Образец рулонной упаковки для пищевой продукции](https://printehnn.ru/)

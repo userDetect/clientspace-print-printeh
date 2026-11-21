@@ -1,54 +1,35 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" data-layout="tech">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#c83d29">
 <meta name="print-demo-id" content="printeh">
-<meta name="business" content="Принтех">
-<meta name="description" content="Печать рулонной упаковки, резка и перемотка, дизайн и нанесение кодов маркировки.">
-<title>Принтех · концепт сайта ClientSpace</title>
+<title>Принтех — Флексография и рулонная упаковка</title>
 <link rel="stylesheet" href="site.css">
-<style>:root{--accent:#c83d29;--cover:color-mix(in srgb,#c83d29,#10151c 62%);--cover-tint:color-mix(in srgb,#c83d29,#fff9ee 87%)}</style>
-<script src="site.js" defer></script>
+<style>:root{--brand:#c83d29}</style>
+<script src="site.js" type="module"></script>
 </head>
-<body class="press variant-0">
-<div class="demo-bar"><div class="shell"><span>Демо-концепт студии ClientSpace</span><a href="https://printehnn.ru/" rel="noopener">Действующий сайт ↗</a></div></div>
-<header class="site-header"><div class="shell">
-<a class="brand" href="#top"><span class="mark" aria-hidden="true">П</span>Принтех</a>
-<nav aria-label="Разделы сайта"><a href="#catalog">Продукция и услуги</a><a href="#terms">Условия</a><a href="#contacts">Контакты</a></nav>
-<a class="cta secondary" href="#order">Заполнить бриф <span aria-hidden="true">↘</span></a>
+<body>
+<a class="skip" href="#main">К содержанию</a>
+<header class="masthead"><div class="shell mast-inner">
+<a class="brand" href="index.html"><span aria-hidden="true">П</span>Принтех</a>
+<nav class="main-nav" aria-label="Разделы сайта"><a href="index.html" aria-current="page">Главная</a><a href="catalog.html">Каталог</a><a href="pricing.html">Цены и расчёт</a><a href="guide.html">Материалы и техническое задание</a></nav>
+<a class="button compact nav-cta" href="order.html">Заявка</a>
+<details class="mobile-nav"><summary aria-label="Открыть меню"><i></i><i></i></summary><nav aria-label="Разделы сайта"><a href="index.html" aria-current="page">Главная</a><a href="catalog.html">Каталог</a><a href="pricing.html">Цены и расчёт</a><a href="guide.html">Материалы и техническое задание</a><a href="order.html">Оставить заявку</a></nav></details>
 </div></header>
-<main id="top">
-<div class="shell"><section class="hero" aria-labelledby="hero-title">
-<div class="hero-copy"><p class="eyebrow">Нижний Новгород · Флексографическая типография</p><h1 id="hero-title">Флексопечать на рулонных материалах</h1><p>Печать рулонной упаковки, резка и перемотка, дизайн и нанесение кодов маркировки.</p>
-<div class="hero-actions"><a class="cta" href="#order">Подготовить бриф для расчёта <span aria-hidden="true">↘</span></a><a class="cta secondary" href="#catalog">Посмотреть услуги</a></div>
-</div><figure class="hero-art with-photo"><img src="photo-1.webp" alt="Образец гибкой упаковки" fetchpriority="high"><figcaption>Образец гибкой упаковки</figcaption></figure></section></div>
-<section id="catalog" class="section shell">
-<div class="section-lead"><h2>Продукция и услуги</h2><label class="catalog-search"><span>Найти услугу</span><input id="catalog-search" type="search" placeholder="Начните вводить название"></label></div>
-<div class="products"><article class="product" data-catalog-item><div><h3>Флексографическая печать</h3><p>Полноцветная печать на рулонных материалах</p></div><button type="button" data-product="Флексографическая печать" aria-label="В бриф — Флексографическая печать">↗</button></article><article class="product" data-catalog-item><div><h3>Кашированная фольга</h3><p>Три или четыре слоя. Материал для масла, мороженого и других продуктов</p></div><button type="button" data-product="Кашированная фольга" aria-label="В бриф — Кашированная фольга">↗</button></article><article class="product" data-catalog-item><div><h3>Триплекс и буфлен</h3><p>Материалы для упаковки чая, кофе, специй и приправ</p></div><button type="button" data-product="Триплекс и буфлен" aria-label="В бриф — Триплекс и буфлен">↗</button></article><article class="product" data-catalog-item><div><h3>Бумажные материалы</h3><p>Пергамент, эколин и ламинированная бумага</p></div><button type="button" data-product="Бумажные материалы" aria-label="В бриф — Бумажные материалы">↗</button></article><article class="product" data-catalog-item><div><h3>Резка и перемотка</h3><p>Переработка материала из рулона в рулон</p></div><button type="button" data-product="Резка и перемотка" aria-label="В бриф — Резка и перемотка">↗</button></article><article class="product" data-catalog-item><div><h3>Дизайн и маркировка</h3><p>Разработка дизайна упаковки и нанесение кодов «Честный знак»</p></div><button type="button" data-product="Дизайн и маркировка" aria-label="В бриф — Дизайн и маркировка">↗</button></article></div><p id="no-products" hidden>По этому запросу ничего не найдено.</p>
-</section>
-
-
-<section id="order" class="order-wrap">
-<div class="shell order-grid"><div class="order-intro"><h2>Подготовить бриф для расчёта</h2><p>Укажите изделие и параметры заказа. По ним можно согласовать технологию, стоимость и срок.</p><div class="quick-picks"><button type="button" data-product="Флексографическая печать" class="quick-choice">Флексографическая печать</button><button type="button" data-product="Кашированная фольга" class="quick-choice">Кашированная фольга</button><button type="button" data-product="Триплекс и буфлен" class="quick-choice">Триплекс и буфлен</button></div></div>
-<form id="brief" class="order-box">
-<div class="form-grid">
-<label class="wide"><span>Вид заказа</span><select name="product" required><option value="">Выберите услугу</option><option value="Флексографическая печать">Флексографическая печать</option><option value="Кашированная фольга">Кашированная фольга</option><option value="Триплекс и буфлен">Триплекс и буфлен</option><option value="Бумажные материалы">Бумажные материалы</option><option value="Резка и перемотка">Резка и перемотка</option><option value="Дизайн и маркировка">Дизайн и маркировка</option></select></label>
-<label class=""><span>Материал</span><select name="material"><option value="">Выбрать</option><option value="Кашированная фольга">Кашированная фольга</option><option value="Триплекс или буфлен">Триплекс или буфлен</option><option value="Микспап">Микспап</option><option value="Пергамент">Пергамент</option><option value="Эколин">Эколин</option><option value="Ламинированная бумага">Ламинированная бумага</option><option value="Нужна консультация">Нужна консультация</option></select></label><label class=""><span>Ширина полотна, мм</span><input type="number" name="width" min="1" step="any"></label><label class=""><span>Тираж, кг</span><input type="number" name="weight" min="1" step="any"></label><label class=""><span>Маркировка «Честный знак»</span><select name="marking"><option value="">Выбрать</option><option value="Нужна">Нужна</option><option value="Не требуется">Не требуется</option><option value="Уточню с менеджером">Уточню с менеджером</option></select></label><label class=""><span>Желаемая дата поставки</span><input type="date" name="deadline"></label><label class="wide"><span>Макет или техническое задание</span><input type="file" name="artwork" aria-describedby="file-hint"><small id="file-hint">Можно приложить техзадание с параметрами рулона, материалом и требованиями к маркировке.</small></label><label class=""><span>Телефон для ответа (необязательно)</span><input type="tel" name="contact" placeholder="+7 (___) ___-__-__" autocomplete="tel"></label>
-</div>
-
-<button class="cta" type="submit">Сформировать бриф <span aria-hidden="true">↗</span></button>
-<small>Демонстрационная форма. Введённые данные остаются в браузере.</small>
-<div class="summary" id="brief-summary" tabindex="-1" hidden><pre id="summary-text"></pre>
-<button class="cta secondary" type="button" id="copy-brief">Копировать</button>
-<button class="cta secondary" type="button" id="download-brief">Скачать текст</button>
-<span id="copy-status" role="status"></span></div>
-</form></div></section>
-<section id="terms" class="section shell"><div class="section-lead"><h2>Условия заказа</h2><p>Итоговые параметры, стоимость и дату выполнения подтверждает компания.</p></div><div class="facts"><details><summary>Специализация — флексографическая печать на рулонных материалах для упаковки.</summary><p><a href="https://printehnn.ru/">Источник на сайте компании ↗</a></p></details><details><summary>В списке материалов опубликованы примеры назначения и стартовые цены с разными единицами.</summary><p><a href="https://printehnn.ru/">Источник на сайте компании ↗</a></p></details></div></section>
-</main>
-<footer id="contacts" class="contacts"><div class="shell">
-<div><h3>Принтех</h3><p>Нижний Новгород · ул. Нартова, 6, корпус 6</p><div class="footer-links"><a href="tel:+79107901284">+7 (910) 790-12-84</a><a href="mailto:printehnn@gmail.com">printehnn@gmail.com</a><a href="https://wa.me/79107901284">WhatsApp</a><a href="https://printehnn.ru/">printehnn.ru</a></div></div>
-<div><p>Демонстрационная версия по открытым материалам компании.</p><div class="footer-links"><a href="https://client-space.ru/">Сайт студии ClientSpace ↗</a></div></div>
-</div></footer>
+<main id="main"><section class="hero"><div class="shell hero-inner">
+<div class="hero-copy"><p class="eyebrow">Флексография и рулонная упаковка · Нижний Новгород</p><h1>Принтех</h1>
+<p class="hero-lead">Флексографическая печать на рулонных материалах для упаковки. От подбора материала и дизайна до нанесения кодов и перемотки.</p><div class="actions"><a href="catalog.html" class="button">Открыть каталог</a><a href="order.html" class="button secondary">Запросить расчёт</a></div>
+</div><figure class="hero-media"><img src="assets/photo-1.webp" alt="Образец гибкой упаковки" fetchpriority="high"><figcaption>Образец гибкой упаковки</figcaption></figure></div></section>
+<section class="shell section"><div class="heading-row"><div class="section-title"><h2>Изделия и услуги</h2></div><a href="catalog.html" class="text-action">Весь каталог</a></div>
+<div class="scroll-chips"><a href="catalog.html?group=%D0%A0%D1%83%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F" class="">Рулонная продукция</a><a href="catalog.html?group=%D0%A0%D1%83%D0%BB%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B" class="">Рулонные материалы</a></div><div class="product-grid"><a class="product-card " href="product-p1.html"><span class="product-category">Рулонная продукция</span><h3>Флексографическая печать</h3><p>Полноцветная печать на рулонных материалах</p><span class="text-action">Открыть</span></a><a class="product-card " href="product-p2.html"><span class="product-category">Рулонная продукция</span><h3>Кашированная фольга</h3><p>Три или четыре слоя. Материал для масла, мороженого и других продуктов</p><span class="text-action">Открыть</span></a><a class="product-card " href="product-p3.html"><span class="product-category">Рулонные материалы</span><h3>Триплекс и буфлен</h3><p>Рулонные материалы для упаковки специй, чая, кофе, приправ и семян.</p><span class="text-action">Открыть</span></a></div></section>
+<div class="shell"><aside class="lead-note"><div><h2>Материал по назначению упаковки</h2><p>Кашированная фольга в три или четыре слоя применяется для масла, творожной продукции, конфет и мороженого. Триплекс и буфлен предлагают для специй, чая, кофе и семян. Ламинированная бумага подходит для порционных продуктов.</p></div><a href="guide.html" class="button secondary">Материалы и техническое задание</a></aside></div>
+<section class="shell section work"><div class="section-title"><h2>Продукция и производство</h2></div><div class="gallery"><figure><img src="assets/photo-1.webp" alt="Образец гибкой упаковки" loading="lazy"><figcaption>Образец гибкой упаковки</figcaption></figure><figure><img src="assets/877804a9d97835db22f7dde9.webp" alt="Образец рулонной упаковки для пищевой продукции" loading="lazy"><figcaption>Образец рулонной упаковки для пищевой продукции</figcaption></figure></div></section>
+<section class="shell section"><div class="price-banner"><div><h2>Расчёт стоимости</h2><p>Сверьте опубликованный тариф или подготовьте запрос на свой тираж.</p></div>
+<a href="pricing.html" class="button secondary">К расчёту</a></div></section>
+<section id="contacts" class="shell section"><div class="section-title"><h2>Контакты</h2></div><div class="contact-grid"><a class="contact" href="tel:+79107901284"><span>Телефон</span><strong>+7 (910) 790-12-84</strong></a><a class="contact" href="mailto:printehnn@gmail.com"><span>Почта</span><strong>printehnn@gmail.com</strong></a><a class="contact" href="https://wa.me/79107901284"><span>WhatsApp</span><strong>Открыть</strong></a><div class="contact"><span>Адрес</span><strong>ул. Нартова, 6, корпус 6</strong></div></div></section></main>
+<footer class="footer"><div class="shell footer-inner"><div><strong>Принтех</strong><p>Нижний Новгород · Флексография и рулонная упаковка</p></div><nav aria-label="Полезные ссылки"><a href="catalog.html" class="">Каталог</a><a href="pricing.html" class="">Цены и расчёт</a><a href="guide.html" class="">Материалы и техническое задание</a><a href="order.html" class="">Оставить заявку</a></nav>
+<div class="footer-source"><a href="https://printehnn.ru/" class="" target="_blank" rel="noopener noreferrer">Действующий сайт</a><small>Концепт сайта · ClientSpace</small></div></div></footer>
 </body></html>
