@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru" data-layout="tech">
+<html lang="ru" data-layout="tech" data-scene-layout="tech" data-company="printeh">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,8 +8,10 @@
 <meta name="print-demo-id" content="printeh">
 <title>Принтех — Флексография и рулонная упаковка</title>
 <link rel="stylesheet" href="site.css">
-<style>:root{--brand:#c83d29}</style>
+<link rel="stylesheet" href="experience.css">
+<style>:root{--brand:#c83d29;--scene-field:#252b24;--scene-paper:#eeefe4;--scene-ink:#222822;--scene-accent:#e5df86}</style>
 <script src="site.js" type="module"></script>
+<script src="experience.js" type="module"></script>
 </head>
 <body>
 <a class="skip" href="#main">К содержанию</a>
@@ -17,17 +19,105 @@
 <a class="brand" href="index.html"><span aria-hidden="true">П</span>Принтех</a>
 <nav class="main-nav" aria-label="Разделы сайта"><a href="index.html" aria-current="page">Главная</a><a href="catalog.html">Каталог</a><a href="pricing.html">Цены и расчёт</a><a href="guide.html">Материалы и техническое задание</a></nav>
 <a class="button compact nav-cta" href="order.html">Заявка</a>
-<details class="mobile-nav"><summary aria-label="Открыть меню"><i></i><i></i></summary><nav aria-label="Разделы сайта"><a href="index.html" aria-current="page">Главная</a><a href="catalog.html">Каталог</a><a href="pricing.html">Цены и расчёт</a><a href="guide.html">Материалы и техническое задание</a><a href="order.html">Оставить заявку</a></nav></details>
+<details class="mobile-nav"><summary aria-label="Открыть меню"><i></i><i></i></summary><nav aria-label="Разделы сайта"><a href="catalog.html"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path d="M5 5h6v6H5zM13 5h6v6h-6zM5 13h6v6H5zM13 13h6v6h-6z" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg>Каталог</a><a href="pricing.html"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path d="M6 4h12v16H6zM9 8h6m-6 4h6m-6 4h4" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg>Цены</a><a href="guide.html"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path d="M4 5h6l2 2 2-2h6v13h-6l-2 2-2-2H4zm8 2v13" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg>Информация</a><a href="order.html"><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path d="M4 5h16v12H9l-5 3zm4 4h8m-8 4h5" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg>Заявка</a></nav></details>
 </div></header>
-<main id="main"><section class="hero"><div class="shell hero-inner">
-<div class="hero-copy"><p class="eyebrow">Флексография и рулонная упаковка · Нижний Новгород</p><h1>Принтех</h1>
+<main id="main"><section class="hero motion-hero" aria-labelledby="hero-title"><div class="shell hero-inner">
+<div class="hero-copy"><p class="eyebrow">Флексография и рулонная упаковка · Нижний Новгород</p><h1 id="hero-title">Принтех</h1>
 <p class="hero-lead">Флексографическая печать на рулонных материалах для упаковки. От подбора материала и дизайна до нанесения кодов и перемотки.</p><div class="actions"><a href="catalog.html" class="button">Открыть каталог</a><a href="order.html" class="button secondary">Запросить расчёт</a></div>
-</div><figure class="hero-media"><img src="assets/photo-1.webp" alt="Образец гибкой упаковки" fetchpriority="high"><figcaption>Образец гибкой упаковки</figcaption></figure></div></section>
-<section class="shell section"><div class="heading-row"><div class="section-title"><h2>Изделия и услуги</h2></div><a href="catalog.html" class="text-action">Весь каталог</a></div>
-<div class="scroll-chips"><a href="catalog.html?group=%D0%A0%D1%83%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F" class="">Рулонная продукция</a><a href="catalog.html?group=%D0%A0%D1%83%D0%BB%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B" class="">Рулонные материалы</a></div><div class="product-grid"><a class="product-card " href="product-p1.html"><span class="product-category">Рулонная продукция</span><h3>Флексографическая печать</h3><p>Полноцветная печать на рулонных материалах</p><span class="text-action">Открыть</span></a><a class="product-card " href="product-p2.html"><span class="product-category">Рулонная продукция</span><h3>Кашированная фольга</h3><p>Три или четыре слоя. Материал для масла, мороженого и других продуктов</p><span class="text-action">Открыть</span></a><a class="product-card " href="product-p3.html"><span class="product-category">Рулонные материалы</span><h3>Триплекс и буфлен</h3><p>Рулонные материалы для упаковки специй, чая, кофе, приправ и семян.</p><span class="text-action">Открыть</span></a></div></section>
-<div class="shell"><aside class="lead-note"><div><h2>Материал по назначению упаковки</h2><p>Кашированная фольга в три или четыре слоя применяется для масла, творожной продукции, конфет и мороженого. Триплекс и буфлен предлагают для специй, чая, кофе и семян. Ламинированная бумага подходит для порционных продуктов.</p></div><a href="guide.html" class="button secondary">Материалы и техническое задание</a></aside></div>
-<section class="shell section work"><div class="section-title"><h2>Продукция и производство</h2></div><div class="gallery"><figure><img src="assets/photo-1.webp" alt="Образец гибкой упаковки" loading="lazy"><figcaption>Образец гибкой упаковки</figcaption></figure><figure><img src="assets/877804a9d97835db22f7dde9.webp" alt="Образец рулонной упаковки для пищевой продукции" loading="lazy"><figcaption>Образец рулонной упаковки для пищевой продукции</figcaption></figure></div></section>
-<section class="shell section"><div class="price-banner"><div><h2>Расчёт стоимости</h2><p>Сверьте опубликованный тариф или подготовьте запрос на свой тираж.</p></div>
+</div><figure class="motion-figure">
+<div class="motion-art" aria-hidden="true" data-scene="printeh"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="presentation" aria-hidden="true" focusable="false" data-motion-scene="printeh"><defs><linearGradient id="printeh-motion-back" x2="1" y2="1"><stop stop-color="#e8e8da"/><stop offset="1" stop-color="#c3c9aa"/></linearGradient><pattern id="printeh-motion-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0v24" fill="none" stroke="#73816a" stroke-opacity=".2" stroke-width=".7"/></pattern><pattern id="printeh-motion-dots" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#73816a" fill-opacity=".27"/></pattern><filter id="printeh-motion-shadow" x="-.24" y="-.26" width="1.54" height="1.74"><feDropShadow dx="0" dy="13" stdDeviation="12" flood-color="#282d25" flood-opacity=".2"/></filter><linearGradient id="printeh-motion-chassis" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0.000" stop-color="#3e4940"/><stop offset="0.500" stop-color="#27322c"/><stop offset="1.000" stop-color="#182520"/></linearGradient><linearGradient id="printeh-motion-roller" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0.000" stop-color="#748175"/><stop offset="0.333" stop-color="#e1e7d0"/><stop offset="0.667" stop-color="#7f8e77"/><stop offset="1.000" stop-color="#323e34"/></linearGradient><linearGradient id="printeh-motion-ink-roll" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0.000" stop-color="#655e35"/><stop offset="0.333" stop-color="#ded084"/><stop offset="0.667" stop-color="#8c8255"/><stop offset="1.000" stop-color="#565637"/></linearGradient><linearGradient id="printeh-motion-paper" x1="0%" y1="0%" x2="100%" y2="82%"><stop offset="0.000" stop-color="#fefff4"/><stop offset="0.500" stop-color="#e3ebce"/><stop offset="1.000" stop-color="#fbf5cb"/></linearGradient><clipPath id="printeh-motion-material"><path d="M130 226L286 207Q316 204 329 230l40 83q10 23 42 19l222-27v95l-209 25q-69 8-94-42l-40-81q-6-13-24-12l-136 16Z"/></clipPath></defs><style>.printeh-motion-deck{}.motion-art[data-playing="true"] .printeh-motion-deck{animation:printeh-motion-deck 0.62s 0.04s cubic-bezier(.3,.7,.2,1) both}@keyframes printeh-motion-deck{from{opacity:0;transform:translateY(23px)}to{opacity:1;transform:none}}.printeh-motion-pull{transform-box:view-box;transform-origin:130px 280px;}.motion-art[data-playing="true"] .printeh-motion-pull{animation:printeh-motion-pull 1.16s 0.38s cubic-bezier(.3,.7,.2,1) both}@keyframes printeh-motion-pull{from{transform:scaleX(.04);opacity:.4}18%{opacity:1}to{transform:scaleX(1);opacity:1}}.printeh-motion-head{}.motion-art[data-playing="true"] .printeh-motion-head{animation:printeh-motion-head 0.85s 0.74s cubic-bezier(.3,.7,.2,1) both}@keyframes printeh-motion-head{0%{transform:translateY(-38px);opacity:.2}35%{transform:translateY(0);opacity:1}75%{transform:translateY(0);opacity:1}100%{transform:none;opacity:1}}.printeh-motion-transfer{}.motion-art[data-playing="true"] .printeh-motion-transfer{animation:printeh-motion-transfer 1.28s 1.42s linear both}@keyframes printeh-motion-transfer{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0 0 0 0)}}.printeh-motion-feed-hub{transform-box:view-box;transform-origin:131px 267px;}.motion-art[data-playing="true"] .printeh-motion-feed-hub{animation:printeh-motion-feed-hub 2.43s 0.39s linear both}@keyframes printeh-motion-feed-hub{from{transform:rotate(-220deg)}to{transform:rotate(0deg)}}.printeh-motion-take-hub{transform-box:view-box;transform-origin:633px 352px;}.motion-art[data-playing="true"] .printeh-motion-take-hub{animation:printeh-motion-take-hub 1.5s 1.55s linear both}@keyframes printeh-motion-take-hub{from{transform:rotate(-175deg)}to{transform:rotate(0deg)}}.printeh-motion-pass-stripes{}.motion-art[data-playing="true"] .printeh-motion-pass-stripes{animation:printeh-motion-pass-stripes 1.04s 1.9s linear both}@keyframes printeh-motion-pass-stripes{0%{opacity:0;transform:translateX(-92px)}15%,77%{opacity:.7}100%{opacity:0;transform:translateX(221px)}}.printeh-motion-finished{}.motion-art[data-playing="true"] .printeh-motion-finished{animation:printeh-motion-finished 0.63s 2.8s cubic-bezier(.3,.7,.2,1) both}@keyframes printeh-motion-finished{from{opacity:0;transform:translate(27px,31px)}to{opacity:1;transform:none}}@media (prefers-reduced-motion:reduce){.motion-art[data-playing="true"] svg[data-motion-scene] *{animation:none!important}}</style><rect x="22" y="24" width="756" height="552" rx="17" fill="url(#printeh-motion-back)"/><rect x="48" y="50" width="704" height="500" rx="7" fill="url(#printeh-motion-grid)"/><g fill="none" stroke="#73816a" stroke-opacity=".8"><path d="M60 53v18M51 62h18m662-9v18m-9-9h18M60 529v18m-9-9h18m662-9v18m-9-9h18"/><path d="M74 62H726M74 538H726" stroke-dasharray="1 7" stroke-opacity=".55"/></g>
+    <ellipse cx="402" cy="475" rx="305" ry="32" fill="#31392e" opacity=".12"/>
+    <g class="printeh-motion-deck" filter="url(#printeh-motion-shadow)">
+      <path d="M107 318l511-31l77 37v118l-493 57l-95-45Z" fill="url(#printeh-motion-chassis)"/>
+      <path d="M107 318l506-48l82 42l-489 59Z" fill="#667263"/>
+      <path d="M206 371l489-59v130l-493 57Z" fill="url(#printeh-motion-chassis)"/>
+      <path d="M219 437l460-54v18l-460 52Z" fill="#899883" opacity=".48"/>
+      <path d="M107 330l95 43v125l-95-45Z" fill="#36453b"/>
+      <path d="M263 472l387-46m-363 53l350-41" fill="none" stroke="#b4c0a0" stroke-opacity=".46" stroke-width="1.5"/>
+      <path d="M131 365l32 14v38l-32-16Z" fill="#182621"/><path d="M139 376l16 7v4l-16-7Z" fill="#c1cb85"/>
+    </g>
+    <g class="printeh-motion-pull">
+      <path d="M130 226L286 207Q316 204 329 230l40 83q10 23 42 19l222-27v95l-209 25q-69 8-94-42l-40-81q-6-13-24-12l-136 16Z" fill="url(#printeh-motion-paper)" stroke="#6e7e62" stroke-width="1.1"/>
+      <path d="M136 233l149-18q27-2 38 21l39 83q13 32 52 28l213-26M142 295l122-13q22-1 32 18l41 84q18 35 87 27l200-22" fill="none" stroke="#a9ad72" stroke-width="1.05" stroke-dasharray="4 5"/>
+      <g clip-path="url(#printeh-motion-material)">
+        <g class="printeh-motion-transfer"><g transform="translate(380 334) skewY(-7)">
+          <rect width="48" height="75" rx="4" fill="#f4ecba" stroke="#647553" stroke-width=".8"/>
+          <path d="M4 5h40v16H4z" fill="#375849"/><path d="M12 19q-5-10 8-13q2 8-8 13Zm11-1q0-9 11-10q-1 8-11 10Z" fill="#e3cc77"/>
+          <circle cx="24" cy="37" r="10" fill="#e6b657"/><path d="M20 44q1-11 13-14q-2 8-13 14Z" fill="#5d774e"/>
+          <path d="M8 55h32m-32 5h32m-32 5h18" fill="none" stroke="#3c5745" stroke-width="1" opacity=".65"/>
+          <path d="M33 64h1m3 0h1m3 0h1m-9 3h1m3 0h1m3 0h1" stroke="#2e4a3b" stroke-width="1.15"/>
+        </g><g transform="translate(439 327) skewY(-7)">
+          <rect width="48" height="75" rx="4" fill="#f4ecba" stroke="#647553" stroke-width=".8"/>
+          <path d="M4 5h40v16H4z" fill="#375849"/><path d="M12 19q-5-10 8-13q2 8-8 13Zm11-1q0-9 11-10q-1 8-11 10Z" fill="#e3cc77"/>
+          <circle cx="24" cy="37" r="10" fill="#e6b657"/><path d="M20 44q1-11 13-14q-2 8-13 14Z" fill="#5d774e"/>
+          <path d="M8 55h32m-32 5h32m-32 5h18" fill="none" stroke="#3c5745" stroke-width="1" opacity=".65"/>
+          <path d="M33 64h1m3 0h1m3 0h1m-9 3h1m3 0h1m3 0h1" stroke="#2e4a3b" stroke-width="1.15"/>
+        </g><g transform="translate(498 320) skewY(-7)">
+          <rect width="48" height="75" rx="4" fill="#f4ecba" stroke="#647553" stroke-width=".8"/>
+          <path d="M4 5h40v16H4z" fill="#375849"/><path d="M12 19q-5-10 8-13q2 8-8 13Zm11-1q0-9 11-10q-1 8-11 10Z" fill="#e3cc77"/>
+          <circle cx="24" cy="37" r="10" fill="#e6b657"/><path d="M20 44q1-11 13-14q-2 8-13 14Z" fill="#5d774e"/>
+          <path d="M8 55h32m-32 5h32m-32 5h18" fill="none" stroke="#3c5745" stroke-width="1" opacity=".65"/>
+          <path d="M33 64h1m3 0h1m3 0h1m-9 3h1m3 0h1m3 0h1" stroke="#2e4a3b" stroke-width="1.15"/>
+        </g><g transform="translate(557 313) skewY(-7)">
+          <rect width="48" height="75" rx="4" fill="#f4ecba" stroke="#647553" stroke-width=".8"/>
+          <path d="M4 5h40v16H4z" fill="#375849"/><path d="M12 19q-5-10 8-13q2 8-8 13Zm11-1q0-9 11-10q-1 8-11 10Z" fill="#e3cc77"/>
+          <circle cx="24" cy="37" r="10" fill="#e6b657"/><path d="M20 44q1-11 13-14q-2 8-13 14Z" fill="#5d774e"/>
+          <path d="M8 55h32m-32 5h32m-32 5h18" fill="none" stroke="#3c5745" stroke-width="1" opacity=".65"/>
+          <path d="M33 64h1m3 0h1m3 0h1m-9 3h1m3 0h1m3 0h1" stroke="#2e4a3b" stroke-width="1.15"/>
+        </g></g>
+        <path class="printeh-motion-pass-stripes" d="M407 309l62 125" fill="none" stroke="#fff8ca" stroke-width="23" opacity="0"/>
+      </g>
+    </g>
+    <g class="printeh-motion-head" filter="url(#printeh-motion-shadow)">
+      <path d="M252 171l190-19l58 23v16l-193 24l-55-21Z" fill="url(#printeh-motion-chassis)"/>
+      <path d="M252 171l190-19l58 23l-193 22Z" fill="#7a8a77"/>
+      <path d="M314 212l147-17l-1 12l-146 16Z" fill="#d0d7bd"/>
+      <path d="M290 216L437 199q15 0 22 14l8 16l-153 18Z" fill="url(#printeh-motion-roller)"/>
+      <path d="M302 258l161-18l7 30l-153 17Z" fill="url(#printeh-motion-ink-roll)"/>
+      <ellipse cx="314" cy="271" rx="15" ry="21" fill="#425047"/>
+      <ellipse cx="314" cy="271" rx="7" ry="10" fill="#aabc9b"/>
+      <path d="M326 263l137-15m-137 22l135-16" fill="none" stroke="#f1e9a9" stroke-width="1.3" opacity=".62"/>
+      <path d="M358 188v13m20-15v14m21-17v13m20-16v13m20-16v13" stroke="#e5e9ca" stroke-opacity=".55" stroke-width="1"/>
+    </g>
+    <g filter="url(#printeh-motion-shadow)">
+      <path d="M110 232l29-22q30-4 43 34l-4 44l-35 25Z" fill="url(#printeh-motion-paper)"/>
+      <ellipse cx="131" cy="267" rx="30" ry="46" fill="#e5e8c6" stroke="#8f9c76" stroke-width="1.4"/>
+      <ellipse cx="131" cy="267" rx="23" ry="37" fill="none" stroke="#a6af8a"/>
+      <ellipse cx="131" cy="267" rx="15" ry="25" fill="#5b6953"/>
+      <g class="printeh-motion-feed-hub" fill="none" stroke="#d0da9d" stroke-width="2.3"><circle cx="131" cy="267" r="10"/><path d="M121 263l20 8m-13-14l6 20"/></g>
+      <path d="M603 320l27-26q42-8 52 42l-2 51l-37 19Z" fill="url(#printeh-motion-ink-roll)"/>
+      <path d="M621 308q35 15 36 70m-5-84q24 18 27 61m-43-53q28 18 31 65" fill="none" stroke="#e8db95" stroke-opacity=".65" stroke-width="1.5"/>
+      <ellipse cx="633" cy="352" rx="34" ry="53" fill="#c6b878" stroke="#e1d49a" stroke-width="1.5"/>
+      <ellipse cx="633" cy="352" rx="27" ry="44" fill="none" stroke="#7e784f" stroke-width="1.4"/>
+      <ellipse cx="633" cy="352" rx="18" ry="30" fill="#435243"/>
+      <g class="printeh-motion-take-hub" fill="none" stroke="#e5dd9b" stroke-width="2.4"><circle cx="633" cy="352" r="11"/><path d="M623 348l20 8m-13-14l6 20"/></g>
+    </g>
+    <g class="printeh-motion-finished" filter="url(#printeh-motion-shadow)">
+      <path d="M529 458l140-17l31 37l-139 29Z" fill="#f8ecc1" stroke="#7b835b" stroke-width="1.2"/>
+      <path d="M543 461l40-5l23 29l-39 8Zm50-6l29-5l25 29l-30 6Zm42-6l29-4l26 25l-31 7Z" fill="#567454"/>
+      <path d="M566 468l12 10m42-15l14 9m29-14l12 8" stroke="#edcc6c" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <path d="M117 139h154m-154-8v16m154-16v16m-130-13v9m24-9v9m25-9v9m24-9v9m24-9v9m516 73v187m-7-187h14m-14 187h14" fill="none" stroke="#677655" stroke-width="1.1" opacity=".7"/>
+    </svg></div>
+<figcaption class="scene-caption"><span class="scene-subject">Печать на рулонном материале</span>
+<button class="scene-replay" type="button" aria-label="Повторить анимацию" hidden><svg viewBox="0 0 24 24" width="19" height="19" aria-hidden="true" focusable="false"><path d="M5 11a7 7 0 1 1 1.9 5.5M5 5v6h6" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></button></figcaption>
+</figure></div></section>
+<section class="shell section deck-section" aria-labelledby="home-catalog">
+<div class="heading-row"><h2 id="home-catalog">Каталог</h2><a href="catalog.html" class="text-action">Весь каталог</a></div>
+<div class="catalog-deck" data-deck><a class="deck-card" href="catalog.html?group=%D0%A0%D1%83%D0%BB%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D0%B8%D1%8F" style="--card-angle:-4deg">
+<div class="deck-picture"><svg viewBox="0 0 312 265" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path d="M73 101h130l-12 66H73z" fill="var(--stock)" stroke="var(--stock-ink)" stroke-width="3"/><path d="M186 165h55v40h-55z" fill="var(--stock)" stroke="var(--stock-ink)" stroke-width="3"/><ellipse cx="205" cy="133" rx="29" ry="34" fill="var(--foil)" stroke="var(--stock-ink)" stroke-width="3"/><ellipse cx="205" cy="133" rx="12" ry="14" fill="var(--stock)" stroke="var(--stock-ink)" stroke-width="3"/><path d="M91 115h87m-91 15h87m-76 15h75" fill="none" stroke="var(--stock-ink)" stroke-width="2"/></svg></div><div class="deck-copy"><h3>Рулонная продукция</h3><p>Флексографическая печать, Кашированная фольга</p></div></a><a class="deck-card" href="catalog.html?group=%D0%A0%D1%83%D0%BB%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5%20%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B" style="--card-angle:5deg">
+<div class="deck-picture"><svg viewBox="0 0 312 265" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><path d="M73 101h130l-12 66H73z" fill="var(--stock)" stroke="var(--stock-ink)" stroke-width="3"/><path d="M186 165h55v40h-55z" fill="var(--stock)" stroke="var(--stock-ink)" stroke-width="3"/><ellipse cx="205" cy="133" rx="29" ry="34" fill="var(--foil)" stroke="var(--stock-ink)" stroke-width="3"/><ellipse cx="205" cy="133" rx="12" ry="14" fill="var(--stock)" stroke="var(--stock-ink)" stroke-width="3"/><path d="M91 115h87m-91 15h87m-76 15h75" fill="none" stroke="var(--stock-ink)" stroke-width="2"/></svg></div><div class="deck-copy"><h3>Рулонные материалы</h3><p>Триплекс и буфлен, Ламинированная бумага</p></div></a></div></section>
+<div class="shell material-note" data-reveal><aside class="lead-note"><div><h2>Материал по назначению упаковки</h2><p>Кашированная фольга в три или четыре слоя применяется для масла, творожной продукции, конфет и мороженого. Триплекс и буфлен предлагают для специй, чая, кофе и семян. Ламинированная бумага подходит для порционных продуктов.</p></div><a href="guide.html" class="button secondary">Материалы и техническое задание</a></aside></div>
+<section class="shell section work" data-reveal><div class="section-title"><h2>Продукция и производство</h2></div><div class="gallery"><figure><a href="assets/photo-1.webp" data-gallery="Образец гибкой упаковки"><img src="assets/photo-1.webp" alt="Образец гибкой упаковки" loading="lazy"></a><figcaption>Образец гибкой упаковки</figcaption></figure><figure><a href="assets/877804a9d97835db22f7dde9.webp" data-gallery="Образец рулонной упаковки для пищевой продукции"><img src="assets/877804a9d97835db22f7dde9.webp" alt="Образец рулонной упаковки для пищевой продукции" loading="lazy"></a><figcaption>Образец рулонной упаковки для пищевой продукции</figcaption></figure></div><dialog id="gallery-dialog" class="gallery-dialog" aria-label="Пример продукции">
+<button type="button" class="gallery-close" aria-label="Закрыть"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<figure><img alt=""><figcaption></figcaption></figure>
+<div class="gallery-controls"><button type="button" data-gallery-back aria-label="Предыдущее фото"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<p aria-live="polite"></p><button type="button" data-gallery-next aria-label="Следующее фото"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+</dialog></section>
+<section class="shell section flow-section" aria-labelledby="flow-title">
+<header class="section-title"><h2 id="flow-title">Как оформить заказ</h2></header>
+<ol class="order-flow" data-flow><li><span class="flow-icon"><svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true" focusable="false"><path d="M4 5h7v6H4zM13 5h7v6h-7zM4 13h7v6H4zM13 13h7v6h-7z" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Подберите материал</h3><p>Материал зависит от назначения и формата упаковки.</p></li><li><span class="flow-icon"><svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true" focusable="false"><path d="M5 5h14v14H5zM9 5v4m3-4v2m3-2v4M5 12h4m-4 3h2" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Укажите параметры рулона</h3><p>Ширина полотна, объём партии и требования к маркировке.</p></li><li><span class="flow-icon"><svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true" focusable="false"><path d="M6 3h8l4 4v14H6zM14 3v5h4M9 13h6m-6 4h5" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Приложите ТЗ</h3><p>Добавьте макет, эскиз или техническую спецификацию.</p></li><li><span class="flow-icon"><svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true" focusable="false"><path d="M20 11v5a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4h5m-3 9 3 3 7-8" fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/></svg></span><h3>Запросите стоимость</h3><p>Расчёт учитывает материал, технологию и объём заказа.</p></li></ol></section>
+<section class="shell section" data-reveal><div class="price-banner"><div><h2>Расчёт стоимости</h2><p>Сверьте опубликованный тариф или подготовьте запрос на свой тираж.</p></div>
 <a href="pricing.html" class="button secondary">К расчёту</a></div></section>
 <section id="contacts" class="shell section"><div class="section-title"><h2>Контакты</h2></div><div class="contact-grid"><a class="contact" href="tel:+79107901284"><span>Телефон</span><strong>+7 (910) 790-12-84</strong></a><a class="contact" href="mailto:printehnn@gmail.com"><span>Почта</span><strong>printehnn@gmail.com</strong></a><a class="contact" href="https://wa.me/79107901284"><span>WhatsApp</span><strong>Открыть</strong></a><div class="contact"><span>Адрес</span><strong>ул. Нартова, 6, корпус 6</strong></div></div></section></main>
 <footer class="footer"><div class="shell footer-inner"><div><strong>Принтех</strong><p>Нижний Новгород · Флексография и рулонная упаковка</p></div><nav aria-label="Полезные ссылки"><a href="catalog.html" class="">Каталог</a><a href="pricing.html" class="">Цены и расчёт</a><a href="guide.html" class="">Материалы и техническое задание</a><a href="order.html" class="">Оставить заявку</a></nav>
